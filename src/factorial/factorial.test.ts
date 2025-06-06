@@ -12,4 +12,8 @@ describe('Testes da função fatorial', () => {
     test('Deve retornar 1 para fatorial de 1', () => {
         expect(factorial(1)).toBe(1); // 1! = 1
     });
+
+    test('Deve retornar 1 para fatorial de 0', () => {
+        expect(factorial(0)).toBe(1); // 1! = 1
+    });
 });
