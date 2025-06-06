@@ -13,8 +13,8 @@ test('fatorial de 5 = 120 e, o fatorial de 3 = 6', () => {
     expect(fatorial(3)).toBe(6);
 });
 
-test('fatorial não é definido para numeros negativo, logo dá erro', () => {
-    expect(fatorial(-6)).toBe(720);
+test('fatorial não é definido para numeros negativo', () => {
+    expect(() => fatorial(-6)).toThrow("fatorial não é definido para números negativos.");
 });
 
 test('fatorial de 6 = 720', () => {
