@@ -9,6 +9,10 @@ describe('Função fatorial', () => {
     expect(fatorial(0)).toBe(1);
   });
 
+  test('fatorial(1) deve retornar 1', () => {
+    expect(fatorial(1)).toBe(1);
+  });
+
   test('fatorial de número negativo deve lançar erro', () => {
     expect(() => fatorial(-1)).toThrow('Fatorial não é definido para números negativos.');
   });
