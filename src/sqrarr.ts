@@ -1,11 +1,15 @@
-export function squareArray(arr: number[]): number[] {
-    if (!Array.isArray(arr)) {
-        throw new Error("O argumento deve ser um array.");
-    }
-    return arr.map(num => {
-        if (typeof num !== 'number') {
-            throw new Error("Todos os elementos do array devem ser números.");
-        }
-        return num * num;
-    });
+export function squareArrayFor(arr: number[]): number[] {
+  const resultado: number[] = [];
+  for (let i = 0; i < arr.length; i++) {
+    resultado.push(arr[i] * arr[i]);
+  }
+  return resultado;
+}
+
+export function squareArrayForEach(arr: number[]): number[] {
+  const resultado: number[] = [];
+  arr.forEach((num) => {
+    resultado.push(num * num);
+  });
+  return resultado;
 }
