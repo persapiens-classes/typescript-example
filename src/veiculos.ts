@@ -26,7 +26,6 @@ class Carro implements Veiculo {
     }
 }
 
-// Classe Aviao
 class Aviao implements Veiculo {
     private altitude: number;
     private combustivelRestante: number;
