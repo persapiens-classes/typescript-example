@@ -1,4 +1,4 @@
-import { Padeiro, Atendente, Funcionario } from './doceriaFuncionarios';
+import { Padeiro, Atendente, Funcionario } from './doceriaFuncionario';
 
 describe('Testes dos funcionários da doceria', () => {
   test('Salário inicial do padeiro deve ser calculado corretamente', () => {
