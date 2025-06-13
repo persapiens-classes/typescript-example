@@ -11,7 +11,7 @@ describe('Testes dos funcionários da doceria', () => {
     expect(Funcionario.relatorioPagamento(padeiro)).toBe("Funcionário Carlos receberá R$ 2300");
   });
 
-  
+
   test('Salário inicial do atendente deve ser calculado corretamente', () => {
     const atendente = new Atendente("Ana", 1500, 50, 5); // 1500 + (50 * 5)
     expect(Funcionario.relatorioPagamento(atendente)).toBe("Funcionário Ana receberá R$ 1750");
