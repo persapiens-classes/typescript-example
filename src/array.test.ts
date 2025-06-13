@@ -32,6 +32,6 @@ test('os dois primeiros elementos do array [2,4,6,2,8,9,5] é [2,4]', () => {
 
 test('os pares do array [8, 3, 9, 5, 6, 12] são [8,6,12]', () => {
     const a = [8, 3, 9, 5, 6, 12];
-    const resultado = [2,4];
+    const resultado = [8,6,12];
     expect(extrairPares(a)).toEqual(resultado);
 })
