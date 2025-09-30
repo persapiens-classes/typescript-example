@@ -13,6 +13,9 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install -g ts-node typescript",
+	"containerEnv": {
+		"NODE_OPTIONS": "--experimental-transform-types --disable-warning=ExperimentalWarning"
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
