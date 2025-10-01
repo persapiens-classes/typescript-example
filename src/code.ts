@@ -1,4 +1,4 @@
-let animal : string = 'cavalo'
+let animal = 'cavalo'
 switch(animal) {
     case 'vaca': console.log('A vaca foi selecionada.')
     break;
