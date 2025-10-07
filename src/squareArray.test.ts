@@ -1,7 +1,7 @@
 
 
 
-import {squareArray} from './squareArray.js';
+import {squareArray} from './squareArray';
 
 test('squares the numbers in an array', () => {
   expect(squareArray([1, 2, 3, 4, 5])).toEqual([1, 4, 9, 16, 25]);
