@@ -2,6 +2,10 @@
     "name": "ria-example",
     "version": "1.0.0",
     "devDependencies": {
+        "@types/babel__core": "^7.20.5",
+        "@types/babel__generator": "^7.27.0",
+        "@types/babel__template": "^7.4.4",
+        "@types/babel__traverse": "^7.28.0",
         "@types/jest": "^30.0.0",
         "@types/node": "^24.9.1",
         "jest": "^30.2.0",
