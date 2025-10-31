@@ -1,9 +1,17 @@
-let animal = 'cavalo'
-switch(animal) {
-    case 'vaca': console.log('A vaca foi selecionada.')
+let animal = "horse";
+
+switch (animal) {
+  case "cow":
+    animal = "dairy cow";
     break;
-    case 'cavalo': console.log('O cavalo foi selecionado.')
+  case "horse":
+    animal = "race horse";
     break;
-    default:
-        console.log('Animal nao detectado.')        
+  default:
+    animal = "not detected";
 }
+
+console.log(`${animal}
+     selected`);
+
+console.log(animal + "\n" + "     selected");
