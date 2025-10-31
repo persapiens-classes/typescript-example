@@ -1,4 +1,4 @@
-# RIA Example
+# TypeScript Example
 
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)  
 [![Build Status](https://github.com/persapiens-classes/ifrn-ria-example/actions/workflows/node.yml/badge.svg)](https://github.com/persapiens-classes/ifrn-ria-example/actions)
@@ -17,17 +17,7 @@ Offered in the **Bachelor of Technology in Analysis and Systems Development (TAD
 
 ## 🧪 About the Project
 
-This repository contains the source code of a sample web application used as a **didactic tool** to demonstrate key concepts in modern frontend development.
-
-We incrementally improve this application **weekly during classes**, covering topics such as:
-
-- Components
-- Reactive Programming
-- State Management
-- Routing
-- HTTP Communication
-- Forms Handling
-- Dependency Injection
+This repository contains the source code to create unit tests in [typescript](https://www.typescriptlang.org/) using [vitest](https://vitest.dev/).
 
 ---
 
