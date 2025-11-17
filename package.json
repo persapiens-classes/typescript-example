@@ -5,7 +5,7 @@
   "devDependencies": {
     "@vitest/coverage-v8": "^4.0.8",
     "@vitest/ui": "^4.0.8",
-    "vitest": "^4.0.8"
+    "vitest": "^4.0.9"
   },
   "scripts": {
     "test": "vitest"
