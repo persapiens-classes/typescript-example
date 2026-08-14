@@ -3,7 +3,7 @@
 {
   "name": "Node.js",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:24-trixie",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:26-trixie",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
@@ -14,7 +14,7 @@
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "npm install",
   "containerEnv": {
-    "NODE_OPTIONS": "--experimental-transform-types --disable-warning=ExperimentalWarning"
+    "NODE_OPTIONS": "--disable-warning=ExperimentalWarning"
   },
   "customizations": {
     "vscode": {
