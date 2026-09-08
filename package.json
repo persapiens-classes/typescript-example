@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "devDependencies": {
-    "@vitest/coverage-v8": "^4.1.8",
-    "@vitest/ui": "^4.1.8",
-    "vitest": "^4.1.8"
+    "@vitest/coverage-v8": "5.0.0",
+    "@vitest/ui": "5.0.0",
+    "vitest": "5.0.0"
   },
   "scripts": {
     "test": "vitest"
