@@ -3,7 +3,7 @@
 {
   "name": "Node.js",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:26-trixie",
+  "image": "mcr.microsoft.com/devcontainers/base:trixie",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
@@ -12,10 +12,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install",
-  "containerEnv": {
-    "NODE_OPTIONS": "--disable-warning=ExperimentalWarning"
-  },
+  "postCreateCommand": "bash -lc 'wget -qO- https://get.pnpm.io | env ENV=\"$HOME/.bashrc\" SHELL=\"$(which bash)\" bash - && export PNPM_HOME=\"$HOME/.local/share/pnpm\" && export PATH=\"$PNPM_HOME:$PNPM_HOME/bin:$PATH\" && pnpm runtime set node 26 -g'",
   "customizations": {
     "vscode": {
       "extensions": ["github.vscode-github-actions"]
