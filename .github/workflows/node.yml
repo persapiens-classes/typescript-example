@@ -11,7 +11,9 @@ on:
 
 jobs:
   build:
-    runs-on: mcr.microsoft.com/devcontainers/base:2.2.3-trixie
+    runs-on: ubuntu-latest
+      
+    container: mcr.microsoft.com/devcontainers/base:2.2.3-trixie
 
     steps:
     - uses: actions/checkout@v7.0.1
