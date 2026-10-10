@@ -22,5 +22,8 @@ jobs:
       with:
         cache: true
 
+    - name: Install dependencies
+      run: pnpm install --fronzen-lockfile
+
     - name: Run tests
       run: pnpm test -- --run
