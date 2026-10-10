@@ -10,7 +10,7 @@
     "@vitest/ui": "5.0.3",
     "vitest": "5.0.3"
   },
-  "packageManager": "pnpm@12.10.1",
+  "packageManager": "pnpm@12.11.2",
   "devEngines": {
     "runtime": {
       "name": "node",
