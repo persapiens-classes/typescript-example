@@ -3,7 +3,7 @@
 {
   "name": "Pnpm with Node.js",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/base:trixie",
+  "image": "mcr.microsoft.com/devcontainers/base:2.2.3-trixie",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
