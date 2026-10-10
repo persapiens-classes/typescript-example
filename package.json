@@ -2,12 +2,20 @@
   "name": "ria-example",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
     "@vitest/coverage-v8": "5.0.3",
     "@vitest/ui": "5.0.3",
     "vitest": "5.0.3"
   },
-  "scripts": {
-    "test": "vitest"
+  "packageManager": "pnpm@12.10.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.11.1",
+      "onFail": "download"
+    }
   }
 }

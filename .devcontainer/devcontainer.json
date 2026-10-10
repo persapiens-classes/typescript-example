@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-  "name": "Node.js",
+  "name": "Pnpm with Node.js",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/base:trixie",
 
@@ -12,7 +12,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "bash -lc 'wget -qO- https://get.pnpm.io | env ENV=\"$HOME/.bashrc\" SHELL=\"$(which bash)\" bash - && export PNPM_HOME=\"$HOME/.local/share/pnpm\" && export PATH=\"$PNPM_HOME:$PNPM_HOME/bin:$PATH\" && pnpm runtime set node 26 -g'",
+  "postCreateCommand": "wget -qO- https://get.pnpm.io/install.sh | ENV=\"$HOME/.bashrc\" SHELL=\"$(which bash)\" bash -",
   "customizations": {
     "vscode": {
       "extensions": ["github.vscode-github-actions"]

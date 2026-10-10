@@ -17,7 +17,7 @@ Offered in the **Bachelor of Technology in Analysis and Systems Development (TAD
 
 ## 🧪 About the Project
 
-This repository contains the source code to create unit tests in [typescript](https://www.typescriptlang.org/) using [vitest](https://vitest.dev/).
+This repository contains the source code to create unit tests in [typescript](https://www.typescriptlang.org/) using [vitest](https://vitest.dev/) with [pnpm](https://pnpm.io/).
 
 ---
 
